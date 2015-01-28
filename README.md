@@ -83,4 +83,5 @@ the [Node aesthetic].
 [npm-image]: https://img.shields.io/npm/v/mcf.svg?style=flat
 [travis-image]: https://img.shields.io/travis/playanth955/js-mcf.svg?style=flat
 [travis-url]: https://travis-ci.org/playanth955/js-mcf
+
 [npm-url]: https://www.npmjs.com/package/mcf

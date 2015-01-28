@@ -39,7 +39,8 @@
   },
   "scripts": {
     "test": "jshint *.json *.js && mocha",
-    "test-cov": "mocha --require blanket -R html-cov > test/coverage.html "
+    "test-cov": "mocha --require blanket -R html-cov > test/coverage.html ",
+    "test-travis": "mocha -R travis-cov"
   },
   "config": {
     "blanket": {
@@ -47,9 +48,7 @@
       "data-cover-never": "node_modules"
     },
     "travis-cov": {
-      "threshold": 70,
-      "pattern": "index.js",
-      "removeKey": "branchFcn"
+      "threshold": 70
     }
   }
 } 

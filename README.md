@@ -4,6 +4,7 @@ Modular Crypt Format
 ====================
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
+[![Test Coverage][coveralls-image]][coveralls-url]
 
 
 This modules reads (deserialize) and writes (serialize) password fields in
@@ -81,7 +82,11 @@ the [Node aesthetic].
 
 [Node aesthetic]: http://substack.net/node_aesthetic
 [npm-image]: https://img.shields.io/npm/v/mcf.svg?style=flat
+
 [travis-image]: https://img.shields.io/travis/playanth955/js-mcf.svg?style=flat
 [travis-url]: https://travis-ci.org/playanth955/js-mcf
+
+[coveralls-image]: https://img.shields.io/coveralls/playanth955/js-mcf.svg?style=flat
+[coveralls-url]: https://coveralls.io/r/strongloop/express?branch=master
 
 [npm-url]: https://www.npmjs.com/package/mcf
